@@ -27,7 +27,30 @@ else
 44 5 78 -> 78
 22 3 9 -> 22
 */
-
+/*
+Console.Write("Введите число: ");
+int a = Convert.ToInt32(Console.ReadLine());
+Console.Write("Введите второе число: ");
+int b = Convert.ToInt32(Console.ReadLine());
+Console.Write("Введите третье число: ");
+int c = Convert.ToInt32(Console.ReadLine());
+if(a > b && a > c)
+{
+    Console.WriteLine(a);
+}
+else if (a < b && c < b)
+{
+  Console.WriteLine(b);
+}
+else if (a < c && b < c)
+{
+  Console.WriteLine(c);
+}
+else
+{
+  Console.Write("invalid input");
+}
+*/
 /*
 Задача 6: Напишите программу, которая на вход принимает число и выдаёт, является ли число чётным (делится ли оно на два без остатка).
 
